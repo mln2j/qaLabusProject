@@ -81,6 +81,6 @@ Nakon instalacije, možete pokrenuti testove putem Maven-a.
 ## Specifičnosti
 
 - **EdgeDriver** se koristi kao WebDriver za testiranje aplikacije na Microsoft Edge pregledniku. Provjerite da imate odgovarajuću verziju msedgedriver.exe na svom računalu.
-- **Wait** naredbe: Umjesto korištenja Thread.sleep(), koristi se WebDriverWait za čekanje da se elementi učitaju, čime se osigurava stabilnost i preciznost testova.
+- **Wait** naredbe: Umjesto korištenja `Thread.sleep()`, koristi se WebDriverWait za čekanje da se elementi učitaju, čime se osigurava stabilnost i preciznost testova.
 - **.gitignore**
 - **README.md**
