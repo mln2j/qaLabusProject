@@ -5,7 +5,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 
-public class NjustaloSearchTest extends NjuskaloTest{
+public class NjuskaloSearchTest extends NjuskaloTest {
     @Test
     public void njuskaloSearchTest() {
         String searchText = "iPhone 16";
