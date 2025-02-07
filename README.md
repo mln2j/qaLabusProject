@@ -60,9 +60,9 @@ Za instalaciju ovog projekta potrebno je sljedeće:
     ```bash
     git clone https://github.com/mln2j/qaLabusProject.git
     ```
-4. **Instalirajte ovisnosti pomoću Maven-a:**
+4. **Instalirajte ovisnosti pomoću Maven-a:**  
     ```bash
-    mvn install
+   mvn install
     ```
 
 5. **Preuzmite i instalirajte Microsoft Edge** (ako već nije instaliran) te preuzmite odgovarajući `msedgedriver.exe` za vaš Edge preglednik. Postavite putanju do EdgeDriver-a unutar koda ili EdgeDriver postavite na putanji `./drivers/msedgedriver.exe`.
@@ -71,9 +71,9 @@ Za instalaciju ovog projekta potrebno je sljedeće:
 ## Pokretanje testova
 
 Nakon instalacije, možete pokrenuti testove putem Maven-a.
-1. Pokrenite testove koristeći Maven:
+1. Pokrenite testove koristeći Maven:  
     ```bash
-    mvn test
+   mvn test
     ```
 2. Rezultate testova možete vidjeti u **target/surefire-reports** direktoriju.
 
