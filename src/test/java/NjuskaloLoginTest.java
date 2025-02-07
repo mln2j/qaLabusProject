@@ -1,4 +1,5 @@
 import io.github.cdimascio.dotenv.Dotenv;
+import org.example.NjuskaloTest;
 import org.openqa.selenium.By;
 import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebElement;
@@ -7,7 +8,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 
-public class NjuskaloLoginTest extends NjuskaloTest{
+public class NjuskaloLoginTest extends NjuskaloTest {
     @Test
     public void njuskaloLoginTest() {
         Dotenv dotenv = Dotenv.load();
