@@ -7,10 +7,9 @@ import org.testng.annotations.Test;
 public class NjuskaloCategoryTest extends NjuskaloTest {
     @Test
     public void njuskaloCategoryTest() {
-        WebElement marketplaceLink = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[@class='categoryLink inner link' and @href='/marketplace']")));
-        System.out.println(marketplaceLink.getText());
-        marketplaceLink.click();
+        WebElement realEstateLink = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[@class='categoryLink inner link' and @href='/nekretnine']")));
+        realEstateLink.click();
         WebElement result = wait.until(ExpectedConditions.visibilityOfElementLocated(By.tagName("h1")));
-        Assert.assertTrue(result.getText().contains("Marketplace"));
+        Assert.assertTrue(result.getText().contains("Nekretnine"));
     }
 }
