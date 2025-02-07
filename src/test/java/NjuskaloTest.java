@@ -19,7 +19,7 @@ public class NjuskaloTest {
         driver.navigate().to(url);
         WebElement acceptButton = driver.findElement(By.xpath("/html/body/div[1]/div/div/div/div/div/div[3]/button[2]"));
         acceptButton.click();
-        wait = new WebDriverWait(driver, 10);
+        wait = new WebDriverWait(driver, 30);
         WebElement privacyButton = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/div[3]/div/div[2]/div[1]/div[2]/button")));
         privacyButton.click();
     }
