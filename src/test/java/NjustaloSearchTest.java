@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 public class NjustaloSearchTest extends NjuskaloTest{
     @Test
-    public void njuskaloSearchTest() throws InterruptedException {
+    public void njuskaloSearchTest() {
         String searchText = "iPhone 16";
         WebElement searchTextBox = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"keywords\"]")));
         searchTextBox.sendKeys(searchText);

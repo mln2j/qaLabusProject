@@ -13,7 +13,7 @@ public class NjuskaloTest {
     public String url = "https://www.njuskalo.hr/";
 
     @BeforeMethod
-    public void setupTest() throws InterruptedException {
+    public void setupTest() {
         System.setProperty("webdriver.edge.driver", "drivers/msedgedriver.exe");
         driver = new EdgeDriver();
         driver.navigate().to(url);

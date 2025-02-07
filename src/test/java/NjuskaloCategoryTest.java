@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 public class NjuskaloCategoryTest extends NjuskaloTest {
     @Test
-    public void njuskaloCategoryTest() throws InterruptedException {
+    public void njuskaloCategoryTest() {
         WebElement marketplaceLink = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[@class='categoryLink inner link' and @href='/marketplace']")));
         System.out.println(marketplaceLink.getText());
         marketplaceLink.click();
